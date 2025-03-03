@@ -59,4 +59,5 @@ def mylogin(request):
     return render(request,"authentication/login.html") 
 
 def logout(request):
+    
     return render(request,"authentication/logout.html")
